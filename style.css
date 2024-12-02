@@ -1,0 +1,52 @@
+
+/* Body'yi Flexbox ile ortalamak */
+body {
+    display: flex;
+    justify-content: center;  /* Yatayda ortalar */
+    height: 900px;            /* Sayfa yüksekliğini 900px yaparak tam ekran ortalama */
+    background-color: #f4f4f4; /* Sayfa arka plan rengi */
+}
+
+
+.contenier {
+    display: flex;
+    flex-direction: column; /* Divleri dikey yerleştirir */
+    gap: 5px; /* Her div arasında 5px boşluk bırakır */
+    padding: 20px;
+    background-color: rgb(124, 117, 117); /* Container'ın arka planı */
+    border: 2px solid #000;  /* Kenarlık ekleyelim */
+    width: 80%; /* Container'ın genişliğini ayarlayabiliriz */
+    max-width: 1200px; /* Maksimum genişlik belirleyebiliriz */
+}
+
+
+.header {
+    border: 2px solid #000; /* Kenarlık kalınlığını belirler */
+    padding: 20px;
+    background-color: lightblue; /* Arka plan rengi */
+    height: 10%;
+}
+
+
+.menu {
+    border: 2px solid #000; /* Kenarlık kalınlığını belirler */
+    padding: 20px;
+    background-color: lightgreen; /* Arka plan rengi */
+    height: 15%;
+}
+
+
+.slider {
+    border: 2px solid #000; /* Kenarlık kalınlığını belirler */
+    padding: 20px;
+    background-color: lightyellow; /* Arka plan rengi */
+    height: 25%;
+}
+
+
+.main {
+    border: 2px solid #000; /* Kenarlık kalınlığını belirler */
+    padding: 20px;
+    background-color: lightcoral; /* Arka plan rengi */
+    height: 50%;
+}
