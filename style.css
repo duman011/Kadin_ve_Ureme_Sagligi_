@@ -187,4 +187,8 @@ footer p {
     footer {
         position: static; /* Mobilde sabit footer kaldırılır */
     }
+        .yonetim{
+      width: 80%; /* Mobilde tam genişlik kullanılır */
+    }
+}
 }
