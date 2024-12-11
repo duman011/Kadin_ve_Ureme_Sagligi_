@@ -152,6 +152,9 @@ footer p {
     display: inline-block;
     width: 80%; /* Mobil için genişlik ayarlandı */
     margin: 0 auto; /* Ortalanır */
+     height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* Responsive Design */
