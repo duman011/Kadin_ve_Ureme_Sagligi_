@@ -150,7 +150,7 @@ footer p {
 .hakkımızda_conten {
     text-align: center;
     display: inline-block;
-    width: 90%; /* Mobil için genişlik ayarlandı */
+    width: 80%; /* Mobil için genişlik ayarlandı */
     margin: 0 auto; /* Ortalanır */
 }
 
@@ -181,7 +181,7 @@ footer p {
     }
 
     .hakkımızda_conten {
-        width: 100%; /* Mobilde tam genişlik kullanılır */
+        width: 800%; /* Mobilde tam genişlik kullanılır */
     }
 
     footer {
