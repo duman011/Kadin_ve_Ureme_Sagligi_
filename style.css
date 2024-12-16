@@ -187,9 +187,6 @@ footer p {
         max-width: 80%; /* Mobilde resim daha küçük */
     }
 
-    .hakkımızda_conten {
-        width: 80%; /* Mobilde tam genişlik kullanılır */
-    }
 
     footer {
         position: static; /* Mobilde sabit footer kaldırılır */
