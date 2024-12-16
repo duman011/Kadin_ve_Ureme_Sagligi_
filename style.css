@@ -150,7 +150,7 @@ footer p {
 
 .hakkımızda_conten {
     text-align: center;
-    display: inline-block;
+    display: block;
     width: 50%; /* Mobil için genişlik ayarlandı */
     margin: 0 auto; /* Ortalanır */
     height: 400px;
