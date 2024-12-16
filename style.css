@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+   
 }
 
 /* Başlık Bölümü */
@@ -187,14 +188,13 @@ footer p {
     }
 
     .hakkımızda_conten {
-        width: 800%; /* Mobilde tam genişlik kullanılır */
+        width: 80%; /* Mobilde tam genişlik kullanılır */
     }
 
     footer {
         position: static; /* Mobilde sabit footer kaldırılır */
     }
-        .yonetim{
-      width: 80%; /* Mobilde tam genişlik kullanılır */
+    .yonetim{
+      width: 100%; /* Mobilde tam genişlik kullanılır */
     }
-}
 }
